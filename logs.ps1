@@ -1,0 +1,1 @@
+﻿Get-EventLog -LogName Security -Newest 5 | Select-Object Source, Message > c:\test.txt
